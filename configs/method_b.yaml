@@ -1,0 +1,21 @@
+# Cấu hình mô hình chuỗi keypoint học sâu (Method B)
+
+model:
+  # Loại mô hình: '1d_cnn', 'lstm', hoặc 'transformer'
+  type: "lstm"
+  # Độ dài chuỗi khung hình (sequence length)
+  sequence_length: 64
+  # Số chiều đặc trưng đầu vào (số keypoint * tọa độ)
+  input_dim: 66
+  # Số chiều ẩn
+  hidden_dim: 128
+  # Số lớp ẩn
+  num_layers: 2
+  # Tỷ lệ dropout
+  dropout: 0.2
+
+training:
+  batch_size: 32
+  learning_rate: 0.001
+  num_epochs: 50
+  seed: 42

@@ -1,0 +1,31 @@
+# Dữ liệu và kết quả đầu ra
+data/**/*
+!data/**/
+!data/**/.gitkeep
+
+outputs/**/*
+!outputs/**/
+!outputs/**/.gitkeep
+
+# Python cache & compiled files
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyc
+
+# Model weights và tệp mảng
+*.pt
+*.pth
+*.npy
+
+# Môi trường ảo
+.venv/
+venv/
+env/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Tệp hệ điều hành
+.DS_Store
+Thumbs.db

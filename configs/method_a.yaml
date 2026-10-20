@@ -1,0 +1,18 @@
+# Cấu hình tham số và ngưỡng luật hình học (Method A)
+
+back_squat:
+  # Ngưỡng góc gập đầu gối khi xuống sâu (độ)
+  shallow_squat_knee_angle: 100.0
+  # Ngưỡng tỷ lệ khoảng cách đầu gối / cổ chân phát hiện chụm gối
+  knees_inward_ratio: 0.85
+  # Ngưỡng độ lệch đầu gối vượt mũi chân
+  knees_forward_threshold: 0.10
+  # Ngưỡng góc gập/cong lưng (độ)
+  back_convex_angle: 160.0
+  back_concave_angle: 155.0
+
+overhead_press:
+  # Ngưỡng góc mở khuỷu tay (độ)
+  elbow_angle_threshold: 165.0
+  # Ngưỡng góc cong đầu gối (độ)
+  knees_angle_threshold: 170.0

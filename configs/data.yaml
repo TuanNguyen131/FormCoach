@@ -1,0 +1,14 @@
+# Cấu hình dữ liệu cho FormCoach
+data_dir: "data"
+raw_data_dir: "data/raw"
+keypoints_dir: "data/keypoints"
+splits_dir: "data/splits"
+
+# Tỷ lệ phân chia tập dữ liệu (train / val / test)
+split_ratio:
+  train: 0.70
+  val: 0.15
+  test: 0.15
+
+# Random seed để tái lập kết quả
+seed: 42

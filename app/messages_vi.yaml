@@ -1,0 +1,12 @@
+# Thông điệp cảnh báo lỗi tư thế bằng tiếng Việt
+
+back_squat:
+  knees_inward: "Đầu gối đang bị chụm vào trong! Hãy mở rộng đầu gối theo hướng mũi chân."
+  knees_forward: "Đầu gối đang đẩy quá xa về phía trước mũi chân! Hãy đẩy hông ra sau."
+  back_convex: "Lưng đang bị cong gù! Hãy mở ngực và giữ thẳng cột sống."
+  back_concave: "Lưng dưới đang bị võng quá mức! Hãy siết chặt cơ bụng."
+  shallow_squat: "Xuống chưa đủ sâu! Hãy hạ hông ngang hoặc thấp hơn mức đầu gối."
+
+overhead_press:
+  elbow: "Khuỷu tay chưa khóa hoặc sai góc! Hãy giữ khuỷu tay hướng về phía trước."
+  knees: "Đầu gối đang bị gập nhún! Hãy giữ thẳng chân và khóa khớp hông."
